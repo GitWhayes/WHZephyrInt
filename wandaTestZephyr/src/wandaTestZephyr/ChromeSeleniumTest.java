@@ -15,7 +15,9 @@ public class ChromeSeleniumTest {
 		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
+		System.out.println("Title of web page is: " + driver.getTitle());
 		driver.findElementByName("q").sendKeys("cheesecake");
+		System.out.println("Test Complete.");
 		driver.quit();
 		
 		
