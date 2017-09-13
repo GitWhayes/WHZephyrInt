@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4298" started-at="2017-09-13T18:41:59Z" finished-at="2017-09-13T18:42:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4298" started-at="2017-09-13T18:41:59Z" finished-at="2017-09-13T18:42:03Z">
+      <class name="wandaTestZephyr.ChromeSeleniumTest">
+        <test-method status="PASS" signature="testGoogle()[pri:0, instance:wandaTestZephyr.ChromeSeleniumTest@c038203]" name="testGoogle" duration-ms="4259" started-at="2017-09-13T14:41:59Z" finished-at="2017-09-13T14:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+      </class> <!-- wandaTestZephyr.ChromeSeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
