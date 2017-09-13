@@ -19,4 +19,24 @@ Suite
 Total tests run: 5, Failures: 2, Skips: 0
 ===============================================
 
+Press any key to continue . . . [TestNG] Running:
+  C:\Users\graywa01\gitZephyrInt\wandaTestZephyr\testng.xml
+
+Wanda Test Fail
+Title of web page is: 
+Wanda Test for Google SignIn
+Title of web page is: Google
+Test Complete.
+
+In Test #1
+Nothing in test2
+
+In Test #3 
+
+
+===============================================
+Suite
+Total tests run: 5, Failures: 2, Skips: 0
+===============================================
+
 Press any key to continue . . . 
