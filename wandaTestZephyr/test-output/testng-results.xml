@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7616" started-at="2017-09-13T20:12:54Z" finished-at="2017-09-13T20:13:01Z">
+  <suite name="Suite" duration-ms="7505" started-at="2017-09-13T20:14:09Z" finished-at="2017-09-13T20:14:17Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7616" started-at="2017-09-13T20:12:54Z" finished-at="2017-09-13T20:13:01Z">
+    <test name="Test" duration-ms="7505" started-at="2017-09-13T20:14:09Z" finished-at="2017-09-13T20:14:17Z">
       <class name="TestAssertions">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:TestAssertions@3ac42916]" name="test1" duration-ms="5" started-at="2017-09-13T16:13:01Z" finished-at="2017-09-13T16:13:01Z">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:TestAssertions@282ba1e]" name="test1" duration-ms="3" started-at="2017-09-13T16:14:16Z" finished-at="2017-09-13T16:14:16Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test 1 has failed]]>
@@ -17,9 +17,9 @@
 	at org.testng.Assert.fail(Assert.java:94)
 	at TestAssertions.test1(TestAssertions.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:TestAssertions@3ac42916]" name="test2" duration-ms="0" started-at="2017-09-13T16:13:01Z" finished-at="2017-09-13T16:13:01Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestAssertions@282ba1e]" name="test2" duration-ms="0" started-at="2017-09-13T16:14:16Z" finished-at="2017-09-13T16:14:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="FAIL" signature="test3()[pri:0, instance:TestAssertions@3ac42916]" name="test3" duration-ms="2" started-at="2017-09-13T16:13:01Z" finished-at="2017-09-13T16:13:01Z">
+        <test-method status="FAIL" signature="test3()[pri:0, instance:TestAssertions@282ba1e]" name="test3" duration-ms="0" started-at="2017-09-13T16:14:17Z" finished-at="2017-09-13T16:14:17Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -62,9 +62,9 @@
 	at org.testng.Assert.assertTrue(Assert.java:52)
 	at TestAssertions.test3(TestAssertions.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -92,13 +92,13 @@
         </test-method> <!-- test3 -->
       </class> <!-- TestAssertions -->
       <class name="TestSysoutFail">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestSysoutFail@f5f2bb7]" name="f" duration-ms="3836" started-at="2017-09-13T16:12:54Z" finished-at="2017-09-13T16:12:57Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestSysoutFail@50675690]" name="f" duration-ms="3767" started-at="2017-09-13T16:14:09Z" finished-at="2017-09-13T16:14:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- TestSysoutFail -->
       <class name="TestGoogleSearch">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestGoogleSearch@73035e27]" name="f" duration-ms="3759" started-at="2017-09-13T16:12:57Z" finished-at="2017-09-13T16:13:01Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestGoogleSearch@13b6d03]" name="f" duration-ms="3723" started-at="2017-09-13T16:14:13Z" finished-at="2017-09-13T16:14:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
