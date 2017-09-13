@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class whJunitTest {
+public class TestWHJunit {
 
 		@Test
 		public void test1(){
