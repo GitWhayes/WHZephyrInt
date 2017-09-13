@@ -2,12 +2,16 @@
 <testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7768" started-at="2017-09-13T20:23:16Z" finished-at="2017-09-13T20:23:23Z">
+  <suite name="Suite" duration-ms="7596" started-at="2017-09-13T20:55:59Z" finished-at="2017-09-13T20:56:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7768" started-at="2017-09-13T20:23:16Z" finished-at="2017-09-13T20:23:23Z">
+    <test name="Test" duration-ms="7596" started-at="2017-09-13T20:55:59Z" finished-at="2017-09-13T20:56:07Z">
       <class name="TestAssertions">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:TestAssertions@3ac42916]" name="test1" duration-ms="5" started-at="2017-09-13T16:23:23Z" finished-at="2017-09-13T16:23:23Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestAssertions@3ac42916]" name="test2" duration-ms="0" started-at="2017-09-13T16:56:07Z" finished-at="2017-09-13T16:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="FAIL" signature="test1()[pri:0, instance:TestAssertions@3ac42916]" name="test1" duration-ms="0" started-at="2017-09-13T16:56:07Z" finished-at="2017-09-13T16:56:07Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test 1 has failed]]>
@@ -45,11 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:TestAssertions@3ac42916]" name="test2" duration-ms="0" started-at="2017-09-13T16:23:23Z" finished-at="2017-09-13T16:23:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="FAIL" signature="test3()[pri:0, instance:TestAssertions@3ac42916]" name="test3" duration-ms="2" started-at="2017-09-13T16:23:23Z" finished-at="2017-09-13T16:23:23Z">
+        <test-method status="FAIL" signature="test3()[pri:0, instance:TestAssertions@3ac42916]" name="test3" duration-ms="0" started-at="2017-09-13T16:56:07Z" finished-at="2017-09-13T16:56:07Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -92,13 +92,13 @@
         </test-method> <!-- test3 -->
       </class> <!-- TestAssertions -->
       <class name="TestSysoutFail">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestSysoutFail@f5f2bb7]" name="f" duration-ms="4031" started-at="2017-09-13T16:23:16Z" finished-at="2017-09-13T16:23:20Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestSysoutFail@f5f2bb7]" name="f" duration-ms="4191" started-at="2017-09-13T16:55:59Z" finished-at="2017-09-13T16:56:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- TestSysoutFail -->
       <class name="TestGoogleSearch">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestGoogleSearch@73035e27]" name="f" duration-ms="3711" started-at="2017-09-13T16:23:20Z" finished-at="2017-09-13T16:23:23Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestGoogleSearch@73035e27]" name="f" duration-ms="3362" started-at="2017-09-13T16:56:04Z" finished-at="2017-09-13T16:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
