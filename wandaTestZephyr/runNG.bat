@@ -1,5 +1,5 @@
 @Echo off
-SET LOGFILE=C:\WH Things\LogFile\batchlogfile.log
+SET LOGFILE=C:\WH Things\LogFile
 call :Logit >>%LOGFILE%
 exit /b 0
 :Logit

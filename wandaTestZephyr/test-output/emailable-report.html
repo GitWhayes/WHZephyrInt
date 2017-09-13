@@ -31,19 +31,27 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">7.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">7.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">TestAssertions</td><td><a href="#m1"><b>test1</b>  </a></td><td class="numi">1</td><td>1505333656996</td><td class="numi">3</td></tr><tr class="failedodd"><td><a href="#m2"><b>test3</b>  </a></td><td class="numi">1</td><td>1505333657000</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="2">TestAssertions</td><td><a href="#m1"><b>test1</b>  </a></td><td class="numi">1</td><td>1505334203842</td><td class="numi">5</td></tr><tr class="failedodd"><td><a href="#m2"><b>test3</b>  </a></td><td class="numi">1</td><td>1505334203857</td><td class="numi">2</td></tr>
 <tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">TestSysoutFail</td><td><a href="#m3"><b>f</b>  </a></td><td class="numi">1</td><td>1505333649503</td><td class="numi">3767</td></tr>
-<tr class="passedeven"><td rowspan="1">TestGoogleSearch</td><td><a href="#m4"><b>f</b>  </a></td><td class="numi">1</td><td>1505333653273</td><td class="numi">3723</td></tr>
-<tr class="passedodd"><td rowspan="1">TestAssertions</td><td><a href="#m5"><b>test2</b>  </a></td><td class="numi">1</td><td>1505333656999</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">TestSysoutFail</td><td><a href="#m3"><b>f</b>  </a></td><td class="numi">1</td><td>1505334196097</td><td class="numi">4031</td></tr>
+<tr class="passedeven"><td rowspan="1">TestGoogleSearch</td><td><a href="#m4"><b>f</b>  </a></td><td class="numi">1</td><td>1505334200129</td><td class="numi">3711</td></tr>
+<tr class="passedodd"><td rowspan="1">TestAssertions</td><td><a href="#m5"><b>test2</b>  </a></td><td class="numi">1</td><td>1505334203848</td><td class="numi">0</td></tr>
 </table>
 <h1>Test</h1>
-<h2 id="m1">TestAssertions:test3</h2>
+<h2 id="m1">TestAssertions:test1</h2>
+<div style="padding-left:3em">
+<p>Test 1 has failed</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at TestAssertions.test1(TestAssertions.java:18)
+<br/>24 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">TestAssertions:test3</h2>
 <div style="padding-left:3em">
 <p>expected [true] but found [false]</p>
 org.testng.Assert.fail(Assert.java:94)
@@ -54,18 +62,10 @@ org.testng.Assert.fail(Assert.java:94)
 <br/>24 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">TestAssertions:test1</h2>
-<div style="padding-left:3em">
-<p>Test 1 has failed</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at TestAssertions.test1(TestAssertions.java:18)
-<br/>24 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m3">TestAssertions:test2</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">TestGoogleSearch:f</h2>
+<h2 id="m4">TestSysoutFail:f</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">TestSysoutFail:f</h2>
+<h2 id="m5">TestGoogleSearch:f</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
