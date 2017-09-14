@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestGoogleSearch {
   
   @Test
-  public void f() {
+  public void GoogleSearchf() {
 	
 			System.out.println("Wanda Test for Google SignIn");
 			

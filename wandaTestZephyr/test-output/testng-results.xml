@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7543" started-at="2017-09-14T00:02:40Z" finished-at="2017-09-14T00:02:47Z">
+  <suite name="Default suite" duration-ms="10779" started-at="2017-09-14T00:13:49Z" finished-at="2017-09-14T00:14:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7543" started-at="2017-09-14T00:02:40Z" finished-at="2017-09-14T00:02:47Z">
+    <test name="Default test" duration-ms="10779" started-at="2017-09-14T00:13:49Z" finished-at="2017-09-14T00:14:00Z">
       <class name="TestAssertions">
-        <test-method status="PASS" signature="test1()[pri:0, instance:TestAssertions@3ac42916]" name="test1" duration-ms="1" started-at="2017-09-13T20:02:47Z" finished-at="2017-09-13T20:02:47Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestAssertions@55f3ddb1]" name="test1" duration-ms="16" started-at="2017-09-13T20:13:49Z" finished-at="2017-09-13T20:13:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:TestAssertions@3ac42916]" name="test2" duration-ms="16" started-at="2017-09-13T20:02:47Z" finished-at="2017-09-13T20:02:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:TestAssertions@3ac42916]" name="test3" duration-ms="0" started-at="2017-09-13T20:02:47Z" finished-at="2017-09-13T20:02:47Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestAssertions@55f3ddb1]" name="test3" duration-ms="0" started-at="2017-09-13T20:13:49Z" finished-at="2017-09-13T20:13:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestAssertions@55f3ddb1]" name="test2" duration-ms="0" started-at="2017-09-13T20:13:49Z" finished-at="2017-09-13T20:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
       </class> <!-- TestAssertions -->
-      <class name="TestSysoutFail">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestSysoutFail@f5f2bb7]" name="f" duration-ms="3802" started-at="2017-09-13T20:02:40Z" finished-at="2017-09-13T20:02:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- TestSysoutFail -->
       <class name="TestGoogleSearch">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestGoogleSearch@73035e27]" name="f" duration-ms="3708" started-at="2017-09-13T20:02:43Z" finished-at="2017-09-13T20:02:47Z">
+        <test-method status="PASS" signature="GoogleSearchf()[pri:0, instance:TestGoogleSearch@cb5822]" name="GoogleSearchf" duration-ms="4899" started-at="2017-09-13T20:13:49Z" finished-at="2017-09-13T20:13:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- GoogleSearchf -->
       </class> <!-- TestGoogleSearch -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      <class name="TestSysoutWH">
+        <test-method status="PASS" signature="ZephyrTestWH()[pri:0, instance:TestSysoutWH@4b9e13df]" name="ZephyrTestWH" duration-ms="5802" started-at="2017-09-13T20:13:54Z" finished-at="2017-09-13T20:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZephyrTestWH -->
+      </class> <!-- TestSysoutWH -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
