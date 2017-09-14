@@ -16,7 +16,7 @@ public class TestGoogleSearch {
 			ChromeDriver driver = new ChromeDriver();
 			driver.get("http://www.google.com");
 			System.out.println("Title of web page is: " + driver.getTitle());
-			driver.findElementByName("q").sendKeys("cheesecake");
+			driver.findElementByName("q").sendKeys("Marble");
 			System.out.println("Test Complete.");
 			driver.quit();
 			
