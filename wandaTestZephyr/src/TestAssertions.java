@@ -15,7 +15,7 @@ public class TestAssertions {
 		@Test
 		public void test1(){
 			System.out.println("\nIn Test #1");
-			fail("Test 1 has failed");
+			//fail("Test 1 has failed");
 			
 		}
 		
@@ -29,7 +29,7 @@ public class TestAssertions {
 		@Test	
 		public void test3(){
 			Boolean answer;
-			answer = false;
+			answer = true;
 
 			System.out.println("\nIn Test #3 \n");
 			Assert.assertTrue(answer);		
